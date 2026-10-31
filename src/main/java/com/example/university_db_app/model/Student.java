@@ -24,4 +24,6 @@ public class Student {
  private String fullName;
  @Column(name = "email", nullable = false, unique = true, length = 100)
  private String email;
+ @Column(name = "phone", length = 15)
+private String phone;
 }
